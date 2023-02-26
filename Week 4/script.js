@@ -28,6 +28,7 @@
    assignment.
    WARNING!!! WARNING!!!
 
+<<<<<<< HEAD
    */
 
 // STEP 1:
@@ -65,3 +66,13 @@
     }
   }
 })();
+=======
+for (var i = 0; i < names.length; i++) {
+	if(names[i].charAt(0)==='J'|| names[i].charAt(0)==='j'){
+        console.log("GoodbyeSpeaker "+ names[i])
+	}
+	else{
+		console.log("HelloSpeaker "+ names[i])
+	}
+}
+>>>>>>> 6e93925cb49327d9d436c28746309135ab10bc3c
